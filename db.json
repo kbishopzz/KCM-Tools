@@ -1,0 +1,377 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "25' x 1-1/4 FatMax Imperial Tape Measure",
+      "description": "Durable tape measure with variable lengths.",
+      "fullDescription": "25' blade length, with a case  made of tough ABS plastic, modified for increased strength and impact resistance.",
+      "image": "/src/assets/Images/Tape measure.jpg",
+      "price": 42.99,
+      "category": "HandTools",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "title": "Milwaukee Tool 19 oz. Wood Milled Face Hickory Framing Hammer",
+      "description": "Classic wood handle hammer for all your construction needs.",
+      "fullDescription": "This traditional wood handle hammer features a durable steel head and a comfortable grip, making it perfect for both professional contractors. Ideal for driving nails, and general construction tasks. With a magnetic Nail set in the head for better nail starting.",
+      "image": "/src/assets/Images/Wood hammer.avif",
+      "price": 54.98,
+      "category": "HandTools",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "title": "Milwaukee Tool 19 oz. Smooth Face Poly / Fiberglass Handle Hammer",
+      "description": "Comfortable rubber handle hammer for better grip.",
+      "fullDescription": "This rubber handle hammer offers enhanced grip and comfort during use. The non-slip rubber grip reduces hand fatigue, making it ideal for extended use in various construction and DIY projects. The steel head is designed for durability and effective nail driving.",
+      "image": "/src/assets/Images/Rubber Hammer.webp",
+      "price": 34.98,
+      "category": "HandTools",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "title": "STANLEY 16 oz Rubber Mallet with Shock Absorbing Handle and Soft Face",
+      "description": "Soft head mallet hammer for woodworking.",
+      "fullDescription": "This mallet hammer features a soft, non-marring head perfect for woodworking and delicate tasks. The wooden handle provides a comfortable grip, while the lightweight design allows for precise control and reduced fatigue during extended use.",
+      "image": "/src/assets/Images/Mallet.avif",
+      "price": 9.98,
+      "category": "HandTools",
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "title": "Milwaukee Tool SHOCKWAVE IMPACT DUTY Drill and Driver Bit Set (50-Piece)",
+      "description": "Ergonomic multi-bit screwdriver set.",
+      "fullDescription": "This versatile multi-bit screwdriver set includes a comfortable ergonomic handle and a variety of interchangeable bits to tackle any screw type. The magnetic bit holder ensures easy bit changes, while the durable construction provides long-lasting performance for all your DIY and repair needs.",
+      "image": "/src/assets/Images/ScrewDriver set.avif",
+      "price": 44.98,
+      "category": "HandTools",
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "title": "Anvil Screwdriver Set (100-Piece)",
+      "description": "Complete screwdriver set with various sizes and types.",
+      "fullDescription": "Complete screwdriver set with various sizes and types. Uses a magnetic tip for easy screw handling, ergonomic non-slip handles for comfort, and a durable storage case to keep everything organized.",
+      "image": "/src/assets/Images/ScrewDriver set2.avif",
+      "price": 24.98,
+      "category": "HandTools",
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "title": "Single screwdriver Bit set",
+      "description": "Single screwdriver bit set with multiple bit types.",
+      "fullDescription": "This single screwdriver bit set includes a variety of commonly used bits for different screw types. The bits are made from high-quality steel for durability, and the compact design makes it easy to carry and store.",
+      "image": "/src/assets/Images/Singlescrewdriver set.jpeg",
+      "price": 15.99,
+      "category": "HandTools",
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "title": "STANLEY 15-Inch Tradecut Panel Saw",
+      "description": " Durable handsaw for cutting wood and materials.",
+      "fullDescription": "This Tradecut handsaw features a sharp, durable blade ideal for cutting wood and other materials. The comfortable handle provides a secure grip, making it easy to control during use. Perfect for woodworking projects, home repairs, and general cutting tasks.",
+      "image": "/src/assets/Images/Tradecut Saw.avif",
+      "price": 14.98,
+      "category": "HandTools",
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "title": "DEWALT Dovetail Saw",
+      "description": "Unique Dovetail handsaw for efficient cutting.",
+      "fullDescription": "This Dovetail handsaw features a unique blade design for efficient cutting and reduced binding. The ergonomic handle provides comfort and control, making it ideal for various woodworking and DIY projects. The high-quality steel blade ensures durability and long-lasting performance.",
+      "image": "/src/assets/Images/DoveTail saw.avif",
+      "price": 19.98,
+      "category": "HandTools",
+      "inStock": true
+    },
+     {
+      "id": 10,
+      "title": "Husky Combination Wrench Set, 32-Piece",
+      "description": "Comprehensive wrench set with various sizes.",
+      "fullDescription": "This comprehensive wrench set includes various sizes of wrenches to fit different nuts and bolts. Made from high-quality steel, these wrenches are durable and designed for a comfortable grip, making them perfect for both professional mechanics and DIY enthusiasts.",
+      "image": "/src/assets/Images/Wrench Set.avif",
+      "price": 39.98,
+      "category": "HandTools",
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "title": "DEWALT 20V MAX ATOMIC Lithium-Ion Cordless Brushless Compact 1/2-inch Drill/Driver Kit - with 2.0Ah Battery, Charger & Bag",
+      "description": "Compact and powerful cordless drill/driver.",
+    "fullDescription": "Compact and powerful cordless drill/driver with brushless motor technology. Comes with a 2.0Ah battery, charger, and carrying bag. Ideal for various drilling and driving tasks in construction and DIY projects.",
+      "image": "/src/assets/Images/Power Drill.avif",
+      "price": 128.00,
+      "category": "PowerTools",
+      "inStock": true
+    },
+   
+    {
+      "id": 12,
+      "title": "Milwaukee Tool M18 FUEL 18V Li-Ion Brushless Cordless 7-1/4-inch Dual Bevel Sliding Compound Miter Saw (Tool-Only)",
+      "description": "Precision mitre saw for accurate cuts.",
+      "fullDescription": "This mitre saw is perfect for making precise crosscuts and mitre cuts in wood and other materials. It features a powerful motor, adjustable cutting angles, and a sturdy base for stability during operation. Ideal for woodworking projects and professional use.",
+      "image": "/src/assets/Images/Mitre Saw.avif",
+      "price": 528.00,
+      "category": "PowerTools",
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "title": "DEWALT 20V MAX Lithium-Ion Cordless 6.5 inch Circular Saw (Tool Only)",
+      "description": "High-performance circular saw for versatile cutting.",
+      "fullDescription": "This high-performance circular saw is designed for versatile cutting tasks in wood, metal, and plastic. It features a powerful motor, adjustable depth and bevel settings, and a comfortable grip for ease of use. Perfect for both professional contractors and DIY enthusiasts.",
+      "image": "/src/assets/Images/Circular saw.avif",
+      "price": 148.00,
+      "category": "PowerTools",
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "title": "DEWALT 20V MAX XR Lithium-Ion Cordless Brushless Jigsaw (Tool-Only)",
+      "description": "Versatile jigsaw for intricate cuts.",
+      "fullDescription": "This versatile jigsaw is perfect for making intricate cuts in wood, metal, and plastic. It features variable speed settings, a comfortable grip, and a durable blade for precise cutting. Ideal for DIY projects and professional use.",
+      "image": "/src/assets/Images/Jigsaw.avif",
+      "price": 289.00,
+      "category": "PowerTools",
+      "inStock": true
+
+    },
+    {
+      "id": 15,
+      "title": "DEWALT 20V MAX Lithium-Ion Cordless 4-1/2-inch to 5-inch Grinder Kit with (1) 5Ah Battery, Charger and Bag",
+      "description": "Powerful angle grinder for cutting and grinding.",
+      "fullDescription": "This powerful angle grinder is designed for cutting, grinding, and polishing various materials. It features a high-speed motor, adjustable guard, and ergonomic handle for comfortable use. Ideal for metalworking, construction, and DIY projects.",
+      "image": "/src/assets/Images/Angled grinder.avif",
+      "price": 228.00,
+      "category": "PowerTools",
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "title": "Performance Select Silver Silver Series 5-Piece Paint Kit with 10mm(3/8-inch) Pile Smooth Surfaces Premium Quality Knit Paint Roller Covers",
+      "description": "Complete paint roller set for smooth finishes.",
+      "fullDescription": "This complete paint roller set includes a roller frame, multiple roller covers, and a paint tray. The high-quality roller covers provide a smooth finish on various surfaces, making it ideal for painting walls, ceilings, and furniture. The ergonomic handle ensures comfortable use during extended painting sessions.",
+      "image": "/src/assets/Images/Paint roller set.avif",
+      "price": 15.47,
+      "category": "Paint",
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "title": "Paints",
+      "description": "High-quality paint for interior and exterior use.",
+      "fullDescription": "High-quality paint for interior and exterior use. Comes in various colors and finishes, providing excellent coverage and durability. Easy to apply and quick-drying, this paint is perfect for refreshing walls, furniture, and other surfaces.",
+      "image": "/src/assets/Images/Paint.png",
+      "price": 69.00,
+      "category": "Paint",
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "title": "Wagner Control Stainer 150 Handheld HVLP Stain Sprayer",
+      "description": "Efficient paint sprayer for smooth application.",
+      "fullDescription": "Efficient paint sprayer for smooth application. Features adjustable spray patterns and a comfortable grip for ease of use. Ideal for painting large surfaces quickly and evenly, providing a professional finish every time.",
+      "image": "/src/assets/Images/Paint sprayer.avif",
+      "price": 14.99,
+      "category": "Paint",
+      "inStock": true
+    },
+    {
+      "id": 19,
+      "title": "Ultra-Bright LED Work Light",
+      "description": "Portable LED work light for bright illumination.",
+      "fullDescription": "This portable LED work light provides bright illumination for various tasks. It features a durable construction, adjustable brightness settings, and a rechargeable battery for convenience. Ideal for workshops, construction sites, and outdoor activities.",
+      "image": "/src/assets/Images/Worklight.webp",
+      "price": 14.57,
+      "category": "Lights",
+      "inStock": true
+    },
+    {    
+      "id": 20,
+      "title": "Husky 5000 Lumen Hybrid Power Swivel Rechargeable Spotlight",
+      "description": "High-powered flashlight for outdoor use.",
+      "fullDescription": "This high-powered flashlight is perfect for outdoor use,Rechargeble power bank featuring multiple brightness settings and a durable, It provides long-lasting illumination, making it ideal for camping, hiking, and emergency situations.",
+      "image": "/src/assets/Images/Flashlight.webp",
+      "price": 29.88,
+      "category": "Lights",
+      "inStock": true
+    },
+    {
+      "id": 21,
+      "title": "300 Multi-Colored Incandescent Mini String Lights",
+      "description": "Festive Christmas tree lights for holiday decoration.",
+      "fullDescription": "Festive Christmas tree lights to brighten your holidays. These energy-efficient LED lights come in a variety of colors and styles, perfect for decorating your Christmas tree, home, or outdoor spaces. Easy to install and designed for long-lasting use, they add a magical touch to your holiday celebrations.",
+      "image": "/src/assets/Images/Christmass Light.webp",
+      "price": 9.98,
+      "category": "Lights",
+      "inStock": true
+    },
+    {
+      "id": 22,
+      "title": "Pipe Cutter",
+      "description": "Durable pipe cutter for clean cuts.",
+      "fullDescription": "This durable pipe cutter is designed for making clean cuts in various types of pipes, including PVC, copper, and steel. It features a sharp cutting wheel, adjustable jaw, and ergonomic handle for comfortable use. Ideal for plumbing projects and repairs.",
+      "image": "/src/assets/Images/jonathan-cooper-7sZwThSntdw-unsplash.jpg",
+      "price": 24.99,
+      "category": "Plumbing",
+      "inStock": true
+    },
+    {
+      "id": 23,
+      "title": "Korky Beehive Max Toilet Plunger",
+      "description": "Effective plunger for unclogging drains.",
+      "fullDescription": "This effective plunger is designed to unclog drains quickly and efficiently. It features a sturdy rubber cup and a comfortable wooden handle, making it easy to create a strong seal and generate powerful suction. Ideal for use in bathrooms and kitchens.",
+      "image": "/src/assets/Images/Plunger.webp",
+      "price": 15.98,
+      "category": "Plumbing",
+      "inStock": true
+    },
+    {
+      "id": 24,
+      "title": "Everbilt Faucet Bibb Kit with Assorted Sizes",
+      "description": "Complete faucet repair kit for easy fixes.",
+      "fullDescription": "This complete faucet repair kit includes all the necessary components to fix common faucet issues, such as leaks and drips. It features high-quality washers, O-rings, and seals, along with easy-to-follow instructions for quick and efficient repairs.",
+      "image":"/src/assets/Images/Faucet Repair Kit.webp",
+      "price":43.98,
+      "category": "Plumbing",
+      "inStock": true
+    },
+    {
+      "id": 25,
+      "title": "Husky 5/8 in. x 100 ft. Heavy-Duty Hose",
+      "description": "Durable garden hose for watering plants.",
+      "fullDescription": "This durable garden hose is perfect for watering plants and outdoor cleaning tasks. Made from high-quality materials, it is kink-resistant and features a comfortable grip for easy handling. The hose comes with standard fittings for easy connection to faucets and sprinklers.",
+      "image": "/src/assets/Images/Garden Hose.avif",
+      "price": 34.99,
+      "category": "Gardening",
+      "inStock": true
+
+    },
+    {
+      "id": 26,
+      "title": "Fiskars 9 in. Power-Lever Steel Blade Telescoping Steel Handle Hedge Shears",
+      "description": "Sharp garden shears for precise trimming.",
+      "fullDescription": "These sharp garden shears are designed for precise trimming and shaping of plants and shrubs. They feature ergonomic handles for comfort, a durable stainless steel blade for clean cuts, and a safety lock for secure storage. Ideal for both professional gardeners and home enthusiasts.",
+      "image": "/src/assets/Images/Garden Shears.webp",
+      "price": 32.98,
+      "category": "Gardening",
+      "inStock": true
+    },
+    {
+      "id": 27,
+      "title": "Anvil 5-2/5 in. Wood Handle Trowel",
+      "description": "Compact garden trowel for planting and digging.",
+      "fullDescription": "This compact garden trowel is perfect for planting, digging, and transplanting tasks in the garden. It features a sturdy metal blade and a comfortable handle for easy use. The trowel is lightweight and durable, making it ideal for both professional gardeners and home enthusiasts.",
+      "image": "/src/assets/Images/Garden Trowel.webp",
+      "price": 4.98,
+      "category": "Gardening",
+      "inStock": true
+    },
+    {
+      "id": 28,
+      "title": "Husky 28 in. D-Grip Short Wood Handle 4-Tine Spading Garden Fork",
+      "description": "Sturdy garden fork for soil aeration.",
+      "fullDescription": "This sturdy garden fork is ideal for soil aeration, turning compost, and breaking up clumps of soil. It features strong tines and a comfortable handle for easy use. Perfect for maintaining healthy garden beds and promoting plant growth.",
+      "image": "/src/assets/Images/Garden Fork.webp",
+      "price": 57.98,
+      "category": "Gardening",
+      "inStock": true
+    },
+    {
+      "id": 29,
+      "title": "Husky 51 in. L Wood Handle Garden Hoe",
+      "description": "Durable garden hoe for weeding and cultivating.",
+      "fullDescription": "This durable garden hoe is perfect for weeding, cultivating soil, and preparing garden beds. It features a sharp blade and a comfortable handle for easy use. Ideal for maintaining a healthy and productive garden.",
+      "image": "/src/assets/Images/Garden Hoe.webp",
+      "price": 24.98,
+      "category": "Gardening",
+      "inStock": true
+    },
+    {
+      "id": 30,
+      "title": "Anvil 47 in. L Wood Handle 14-Tines Garden Bow Rake",
+      "description": "Sturdy rake for lawn and garden maintenance.",
+      "fullDescription": "This sturdy rake is perfect for lawn and garden maintenance tasks such as gathering leaves, grass clippings, and debris. It features a durable metal head with flexible tines and a comfortable wooden handle for easy use. Ideal for keeping your outdoor spaces tidy and well-maintained.",
+      "image": "/src/assets/Images/Garden Rake.webp",
+      "price": 17.98,
+      "category": "Gardening",
+      "inStock": true
+    },
+    {
+      "id": 31,
+      "title": "Milwaukee Safety Glasses with Clear Anti-Scratch Lenses",
+      "description": "Protective safety glasses for eye protection.",
+      "fullDescription": "These protective safety glasses are designed to provide excellent eye protection during various tasks. They feature impact-resistant lenses, a comfortable fit, and anti-fog coating for clear vision. Ideal for construction, woodworking, and other activities where eye safety is essential.",
+      "image": "/src/assets/Images/Safety glasses.avif",
+      "price": 19.97,
+      "category": "Safety Equipment",
+      "inStock": true
+    },
+    {
+      "id": 32,
+      "title": "MIlwaukee Large High Dexterity Cut 5 Resistant Nitrile Dipped Outdoor & Work Gloves",
+      "description": "Durable work gloves for hand protection.",
+      "fullDescription": "These durable work gloves provide excellent hand protection during various tasks. Made from high-quality materials, they offer a comfortable fit, enhanced grip, and resistance to abrasions and cuts. Ideal for construction, gardening, and general labor activities.",
+      "image": "/src/assets/Images/Work Gloves.webp",
+      "price": 15.47,
+      "category": "Safety Equipment",
+      "inStock": true
+    },
+    {
+      "id": 33,
+      "title": "Milwaukee BOLT White Type 1 Class C Full Brim Vented Hard Hat with 4 Point Ratcheting Suspension",
+      "description": "Protective hard hat for head safety.",
+      "fullDescription": "This protective hard hat is designed to provide excellent head safety during construction and industrial tasks. It features a durable shell, adjustable suspension system for a comfortable fit, and meets safety standards for impact resistance. Ideal for workers in hazardous environments.",
+      "image": "/src/assets/Images/Hard Hat.webp",
+      "price": 27.47,
+      "category": "Safety Equipment",
+      "inStock": true
+    },
+    {
+      "id": 34,
+      "title": "3M Pro-Grade Earmuff",
+      "description": "Comfortable ear protection muffs for noise reduction.",
+      "fullDescription": "These comfortable ear protection muffs are designed to reduce noise exposure during loud tasks. They feature adjustable headbands, cushioned ear cups for a secure fit, and high noise reduction ratings. Ideal for construction, woodworking, and other noisy environments.",
+      "image": "/src/assets/Images/Ear Protection.webp",
+      "price": 27.47,
+      "category": "Safety Equipment",
+      "inStock": true
+    },
+    {
+      "id": 35,
+      "title": "3M OV/AG P100 Pro Multi-Purpose Reusable Respirator with Quick Latch, Size Medium",
+      "description": "Protective respirator mask for respiratory safety.",
+      "fullDescription": "This protective respirator mask is designed to provide respiratory safety during various tasks. It features replaceable filters, adjustable straps for a secure fit, and meets safety standards for particulate protection. Ideal for painting, sanding, and working in dusty environments.",
+      "image": "/src/assets/Images/Respirator Mask.webp",
+      "price": 54.97,
+      "category": "Safety Equipment",
+      "inStock": true
+    }
+    
+  ],
+  "Safety Info":[
+    {
+      "id": 1,
+      "title": "Safety warning",
+      "description": "Important safety warnings and guidelines for tool usage.",
+      "fullDescription": "This is to warn customers that the products we sell are to be used with caution. Always wear appropriate safety gear, follow manufacturere's instructions, and ensure proper handling to prevent accidents and injuries.",
+      "category": "SafetyInfo"
+    }
+  ],
+  "About Us": [
+    {
+      "id": 1,
+      "title": "About Us",
+      "description": "Learn more about our company and mission.",
+      "fullDescription": "KCM Tools started as a humble school project, sparked by a whim and the realization of just how essential quality tools are in our daily lives. As we built this platform, our mission crystallized: to provide top-tier equipment for both seasoned professionals and enthusiastic DIYers. At KCM Tools, we believe that the right tool can make any project possible. We are committed to customer satisfaction and strive to offer the best products at competitive prices, turning our academic endeavor into a reliable resource for all your hardware needs.",
+      "category": "AboutUs"
+    }
+  ]
+  
+}

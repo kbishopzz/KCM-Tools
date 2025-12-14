@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Basic styling for the entire website */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #013361 36.54%, #FECF32 56.25%, #F61D25 77.4%);
+  background-attachment: fixed;
+  color: #333;
+}
+
+a {
+  font-weight: 500;
+  color: #4a90e2;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #357abd;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #333;
+}
+

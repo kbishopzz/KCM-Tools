@@ -1,0 +1,51 @@
+/* Creates the grid layout for displaying products */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
+  padding: var(--spacing-xl);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Large screens - 4 columns */
+@media (width >= 1400px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Desktop - 3 columns */
+@media (width >= 1024px) and (width <= 1399px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablet landscape - 3 columns */
+@media (width >= 768px) and (width <= 1023px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+    padding: var(--spacing-lg);
+  }
+}
+
+/* Tablet portrait - 2 columns */
+@media (width >= 480px) and (width <= 767px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    padding: 1.25rem;
+  }
+}
+
+/* Mobile - 1 column */
+@media (width <= 479px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+  }
+}
+

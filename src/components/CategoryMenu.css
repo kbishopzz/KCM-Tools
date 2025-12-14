@@ -1,0 +1,103 @@
+/* Styles for the slide-out category filter menu */
+:root{
+  --menu-width: 220px;
+  --tab-width: 36px;
+}
+
+.category-menu-wrapper{
+  position: fixed;
+  left: 0;
+  top: 80px;
+  bottom: 80px;
+  width: var(--menu-width);
+  transform: translateX(calc(-1 * (var(--menu-width) - var(--tab-width))));
+  transition: transform 260ms ease-in-out;
+  z-index: 60;
+  display: flex;
+  align-items: flex-start;
+}
+
+.category-menu-wrapper.open,
+.category-menu-wrapper:focus-within{
+  transform: translateX(0);
+}
+
+.category-tab{
+  width: var(--tab-width);
+  background: var(--color-primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+}
+
+.category-menu{
+  width: calc(var(--menu-width) - var(--tab-width));
+  background: var(--color-bg-primary);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 1rem;
+  box-shadow: var(--shadow-md);
+}
+
+.category-menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-menu li{
+  margin-bottom: 0.5rem;
+}
+
+.category-button{
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  padding: 0.5rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.category-button:hover,
+.category-button:focus{
+  background: var(--color-bg-secondary);
+}
+
+.category-button.active{
+  background: var(--color-primary);
+  color: white;
+}
+
+.category-button.safety-info-button {
+  background: var(--color-primary);
+  color: white;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  border-top: 2px solid var(--color-border);
+  padding-top: 0.75rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.category-button.safety-info-button:hover,
+.category-button.safety-info-button:focus {
+  background: var(--color-primary-dark);
+}
+
+/* stylelint-disable media-feature-range-notation */
+@media screen and (max-width: 768px) {
+  .category-menu-wrapper {
+    display: none; /* hide on small screens for better UX */
+  }
+}
+/* stylelint-enable media-feature-range-notation */

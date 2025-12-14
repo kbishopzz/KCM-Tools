@@ -1,0 +1,157 @@
+/* Styles for individual product cards */
+.product-card {
+  background: var(--color-bg-primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-content {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.product-content h3 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text-primary);
+}
+
+.product-content p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xs);
+  font-size: 0.95rem;
+  line-height: var(--line-height-normal);
+}
+
+.product-price {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin: var(--spacing-md) 0;
+}
+
+.add-to-cart {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-base);
+  cursor: pointer;
+  transition: background-color var(--transition-normal);
+  width: 100%;
+  margin-top: auto;
+}
+
+.add-to-cart:hover {
+  background-color: var(--color-primary-dark);
+}
+
+/* Tablet landscape */
+@media (width >= 768px) and (width <= 1023px) {
+  .product-image {
+    height: 220px;
+  }
+
+  .product-content {
+    padding: 1.25rem;
+  }
+
+  .product-content h3 {
+    font-size: 1.15rem;
+  }
+
+  .product-content p {
+    font-size: 0.9rem;
+  }
+
+  .product-price {
+    font-size: 1.4rem;
+  }
+
+  .add-to-cart {
+    padding: 0.65rem 1.25rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Tablet portrait & Mobile landscape */
+@media (width >= 480px) and (width <= 767px) {
+  .product-image {
+    height: 200px;
+  }
+
+  .product-content {
+    padding: 1rem;
+  }
+
+  .product-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .product-content p {
+    font-size: 0.9rem;
+  }
+
+  .product-price {
+    font-size: 1.3rem;
+    margin: 0.75rem 0;
+  }
+
+  .add-to-cart {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile portrait */
+@media (width <= 479px) {
+  .product-image {
+    height: 180px;
+  }
+
+  .product-content {
+    padding: 1rem;
+  }
+
+  .product-content h3 {
+    font-size: 1.05rem;
+  }
+
+  .product-content p {
+    font-size: 0.85rem;
+  }
+
+  .product-price {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+
+  .add-to-cart {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+
