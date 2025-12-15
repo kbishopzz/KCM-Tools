@@ -54,12 +54,12 @@ This project was created for the **Term 2 Final Sprint** for **Keyin College Sof
 
 ## 🛠️ Technology Stack
 
-| Technology      | Purpose            | Badge                                                                                           |
-| --------------- | ------------------ | ----------------------------------------------------------------------------------------------- |
-| **React**       | Frontend Framework | ![React](https://img.shields.io/badge/React-v18.x-blue?style=flat-square&logo=react)            |
-| **Vite**        | Build Tool         | ![Vite](https://img.shields.io/badge/Vite-v5.x-646CFF?style=flat-square&logo=vite)              |
-| **ViTest**      | Testing Framework  | ![Vitest](https://img.shields.io/badge/ViTest-Testing-6E9F18?style=flat-square&logo=vitest)     |
-| **JSON-Server** | Backend API        | ![JSON Server](https://img.shields.io/badge/JSON--Server-API-black?style=flat-square&logo=json) |
+| Technology      | Purpose            | Badge                                                                                                      |
+| --------------- | ------------------ | ---------------------------------------------------------------------------------------------------------- |
+| **React**       | Frontend Framework | ![React](https://img.shields.io/badge/React-v19.2.0-blue?style=flat-square&logo=react)                     |
+| **Vite**        | Build Tool         | ![Vite](https://img.shields.io/badge/Vite-v7.2.4-646CFF?style=flat-square&logo=vite)                       |
+| **ViTest**      | Testing Framework  | ![Vitest](https://img.shields.io/badge/ViTest-v4.0.15-6E9F18?style=flat-square&logo=vitest)                |
+| **JSON-Server** | Backend API        | ![JSON Server](https://img.shields.io/badge/JSON--Server-v1.0.0--beta.3-black?style=flat-square&logo=json) |
 
 ---
 
