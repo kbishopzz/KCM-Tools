@@ -1,15 +1,8 @@
-<div align="center">
-
 # 🛠️ KCM Tools
 
 ### Your One-Stop Shop for Quality Tools and Equipment
 
-![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-7.10.1-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![JSON Server](https://img.shields.io/badge/JSON_Server-1.0.0-000000?style=for-the-badge&logo=json&logoColor=white)
-
-</div>
+![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)![React Router](https://img.shields.io/badge/React_Router-7.10.1-CA4245?style=for-the-badge&logo=react-router&logoColor=white)![JSON Server](https://img.shields.io/badge/JSON_Server-1.0.0-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ---
 
@@ -70,28 +63,27 @@ KCM Tools is a modern e-commerce website for browsing and purchasing quality too
 
 ### Installation
 
-1. **Clone the repository**
+1.  **Clone the repository**
 
-   ```bash
-   git clone <repository-url>
-   cd T2-finalSprint-Group
-   ```
+    ```bash
+    git clone <repository-url>cd T2-finalSprint-Group
+    ```
 
-2. **Install dependencies**
+2.  **Install dependencies**
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
-3. **Start the development server**
+3.  **Start the development server**
 
-   ```bash
-   npm run dev:all
-   ```
+    ```bash
+    npm run dev:all
+    ```
 
-   This runs both the React app and the JSON Server:
-   - Frontend: http://localhost:5173
-   - API: http://localhost:3001
+    This runs both the React app and the JSON Server:
+    - Frontend: [http://localhost:5173](http://localhost:5173)
+    - API: [http://localhost:3001](http://localhost:3001)
 
 ### Available Scripts
 
@@ -106,14 +98,7 @@ KCM Tools is a modern e-commerce website for browsing and purchasing quality too
 ## 📁 Project Structure
 
 ```
-src/
-├── components/     # Reusable UI components (Navbar, Cards, etc.)
-├── pages/          # Main page components (Home, Products, Cart, etc.)
-├── context/        # Shopping cart state management
-├── hooks/          # Custom React hooks (responsive design)
-├── styles/         # Global styles and variables
-├── data/           # API data fetching functions
-└── test/           # Test files
+src/├── components/     # Reusable UI components (Navbar, Cards, etc.)├── pages/          # Main page components (Home, Products, Cart, etc.)├── context/        # Shopping cart state management├── hooks/          # Custom React hooks (responsive design)├── styles/         # Global styles and variables├── data/           # API data fetching functions└── test/           # Test files
 ```
 
 ## 🧪 Testing
@@ -128,12 +113,34 @@ All tests check:
 
 - Product data loading
 - Category filtering
-- Checkout form validation
+- Checkout form validation`​`
 - Page routing
 
 ## 👥 Team
 
 This project was created as a group assignment for Keyin College's Software Development program.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/👨‍💻-Charles_Rubia-blue?style=for-the-badge" alt="Charles Rubia"/><br/>
+      <strong>Charles Rubia</strong><br/>
+      <sub>Data Integration & Database</sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/👨‍💻-Matt_Reid-green?style=for-the-badge" alt="Matt Reid"/><br/>
+      <strong>Matt Reid</strong><br/>
+      <sub>Visual Design & UX/UI</sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/👨‍💻-Keith_Bishop-orange?style=for-the-badge" alt="Keith Bishop"/><br/>
+      <strong>Keith Bishop</strong><br/>
+      <sub>Development & Implementation</sub>
+    </td>
+  </tr>
+</table>
+
+For detailed team responsibilities, see [PROJECT-INFO.md](PROJECT-INFO.md).
 
 ## 📝 License
 
@@ -141,8 +148,4 @@ This is a school project created for educational purposes.
 
 ---
 
-<div align="center">
-
 **Made with ❤️ by the KCM Tools Team**
-
-</div>
