@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import SearchBar from './SearchBar';
+import BrandLogo from '../assets/Images/BrandLogo.png';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -13,7 +14,7 @@ export default function Navbar() {
       <div className="navbar-container">
         <div className="navbar-left">
           <Link to="/" className="navbar-logo">
-            KCM Tools
+            <img src={BrandLogo} alt="KCM Tools" className="brand-logo" />
           </Link>
           <ul className="navbar-menu">
             <li><Link to="/">Home</Link></li>

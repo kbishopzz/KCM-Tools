@@ -28,10 +28,21 @@
   color: var(--color-primary);
   text-decoration: none;
   transition: color var(--transition-normal);
+  display: flex;
+  align-items: center;
 }
 
 .navbar-logo:hover {
   color: var(--color-primary-dark);
+}
+
+.brand-logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  background-color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
 }
 
 .navbar-menu {
@@ -110,6 +121,10 @@
 @media (width <= 479px) {
   .navbar-logo {
     font-size: 1.3rem;
+  }
+
+  .brand-logo {
+    height: 40px;
   }
 
   .navbar-menu {
